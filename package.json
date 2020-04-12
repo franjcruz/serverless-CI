@@ -1,0 +1,27 @@
+{
+  "name": "serverless-ci",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "sls deploy",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franjcruz/serverless-CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franjcruz/serverless-CI/issues"
+  },
+  "homepage": "https://github.com/franjcruz/serverless-CI#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.3.0"
+  },
+  "dependencies": {
+    "serverless": "^1.67.3"
+  }
+}
