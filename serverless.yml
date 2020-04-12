@@ -23,7 +23,7 @@ service: serverless-ci
 provider:
   name: aws
   runtime: nodejs12.x
-   region: eu-west-1
+  region: eu-west-1
 
 # you can overwrite defaults here
 #  stage: dev
